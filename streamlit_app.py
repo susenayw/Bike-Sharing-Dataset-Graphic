@@ -51,7 +51,7 @@ st.divider()
 
 # --- PERTANYAAN 1: TREN BULANAN ---
 st.subheader("1. Tren Penyewaan Bulanan")
-monthly_df = main_df.resample(rule='M', on='dteday').agg({"cnt": "sum"}).reset_index()
+monthly_df = main_df.resample(rule='ME', on='dteday').agg({"cnt": "sum"}).reset_index()
 
 fig, ax = plt.subplots(figsize=(16, 8))
 ax.plot(monthly_df["dteday"], monthly_df["cnt"], marker='o', linewidth=3, color="#3498db")
