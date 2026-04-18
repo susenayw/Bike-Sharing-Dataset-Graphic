@@ -8,7 +8,7 @@ st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
 
 # Helper function untuk load data
 def load_data():
-    df = pd.read_csv("dashboard/main_data.csv")
+    df = pd.read_csv("main_data.csv")
     df['dteday'] = pd.to_datetime(df['dteday'])
     return df
 
