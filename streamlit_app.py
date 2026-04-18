@@ -91,11 +91,11 @@ st.pyplot(fig)
 # Insight setara Notebook
 with st.expander("Lihat Analisis Strategis Segmen & Cuaca"):
     st.markdown("""
-    1. **Temuan Data**: Pengguna **Casual** sangat sensitif (anjlok 70% saat cuaca buruk), sedangkan pengguna **Registered** jauh lebih stabil karena kebutuhan komuter harian[cite: 1].
-    2. **Analisis Strategis**: Pengguna Registered adalah pilar stabilitas pendapatan, sementara Casual adalah potensi pendapatan tambahan saat cuaca cerah[cite: 1].
+    1. **Temuan Data**: Pengguna **Casual** sangat sensitif (anjlok 70% saat cuaca buruk), sedangkan pengguna **Registered** jauh lebih stabil karena kebutuhan komuter harian.
+    2. **Analisis Strategis**: Pengguna Registered adalah pilar stabilitas pendapatan, sementara Casual adalah potensi pendapatan tambahan saat cuaca cerah.
     3. **Rekomendasi (Actionable)**:
-        * **Weather-Based Marketing**: Kirim notifikasi promo otomatis untuk segmen Casual saat ramalan cuaca besok diprediksi cerah[cite: 1].
-        * **Loyalty Program**: Berikan poin ekstra bagi pengguna Registered yang tetap bersepeda di cuaca mendung/hujan ringan[cite: 1].
+        * **Weather-Based Marketing**: Kirim notifikasi promo otomatis untuk segmen Casual saat ramalan cuaca besok diprediksi cerah.
+        * **Loyalty Program**: Berikan poin ekstra bagi pengguna Registered yang tetap bersepeda di cuaca mendung/hujan ringan.
     """)
 
 st.divider()
@@ -113,9 +113,7 @@ st.pyplot(fig)
 # Insight setara Notebook
 st.info("""
 **Rekomendasi Operasional Berdasarkan Clustering:**
-1. **Optimasi Stok**: Pastikan ketersediaan unit 100% di stasiun utama saat cuaca 'Clear' (Cluster High/Very High)[cite: 1].
-2. **Efisiensi Biaya**: Kurangi shift kru lapangan saat cuaca 'Light Snow/Rain' karena permintaan diprediksi masuk kategori 'Low'[cite: 1].
-3. **Stimulus Pemasaran**: Luncurkan promo pada kondisi 'Misty/Cloudy' untuk mendorong intensitas dari Medium ke High[cite: 1].
+1. **Optimasi Stok**: Pastikan ketersediaan unit 100% di stasiun utama saat cuaca 'Clear' (Cluster High/Very High).
+2. **Efisiensi Biaya**: Kurangi shift kru lapangan saat cuaca 'Light Snow/Rain' karena permintaan diprediksi masuk kategori 'Low'.
+3. **Stimulus Pemasaran**: Luncurkan promo pada kondisi 'Misty/Cloudy' untuk mendorong intensitas dari Medium ke High.
 """)
-
-st.caption('Copyright (c) Susena Yudha Wijaya 2026 | ID Dicoding: susena_yudha_wijaya')
