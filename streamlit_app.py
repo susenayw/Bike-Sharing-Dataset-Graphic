@@ -5,7 +5,7 @@ import streamlit as st
 
 st.title('Dashboard Penyewaan Sepeda 🚲')
 
-df = pd.read_csv("dashboard/main_data.csv")
+df = pd.read_csv("main_data.csv")
 
 st.subheader('Ringkasan Data')
 total_rentals = df['cnt'].sum()
