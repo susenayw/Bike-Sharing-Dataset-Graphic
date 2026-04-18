@@ -1,6 +1,6 @@
 # 🚲 Proyek Analisis Data: Bike Sharing Dataset
 
-Proyek ini merupakan bagian dari tugas akhir untuk kelas "Belajar Analisis Data dengan Python" di Dicoding. Fokus utama proyek ini adalah melakukan proses analisis data secara lengkap mulai dari pembersihan data, eksplorasi, hingga pembuatan dashboard interaktif yang memberikan wawasan strategis berdasarkan dataset penyewaan sepeda.
+Proyek ini merupakan bagian dari tugas akhir untuk kelas "	Belajar Fundamental Analisis Data" di Dicoding. Fokus utama proyek ini adalah melakukan proses analisis data secara lengkap mulai dari pembersihan data, eksplorasi, hingga pembuatan dashboard interaktif yang memberikan wawasan strategis berdasarkan dataset penyewaan sepeda.
 
 ---
 
